@@ -25,7 +25,7 @@ loaded_model.predict_proba(test)
 where "num" is an integer or a float, and [0,1] represents a categorical variable, where 0 = no, and 1 = yes
 
 ### Output Format
->**[%no capsular contracture, %capsular contracture]**
+>**[% No Contracture, % Capsular Contracture]**
 
 ### Python Version
 >3.7.4
