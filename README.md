@@ -25,6 +25,8 @@ where "num" is an integer or a float, and [0,1] represents a categorical variabl
 ### Output Format
 >**[% No Contracture, % Capsular Contracture]**
 
+
+
 ## Neural Network Model Starter Code
 To load the model, run the following in the command line:
 ```
@@ -38,9 +40,8 @@ After loading the model, run the following to generate a probability prediction:
 new_model.predict(dict(test))
 ```
 
-###  Neural Network Model Starter Code
+### Output Format
 >**value <= 0: No Contracture, otherwise: Capsular Contracture**
-
 
 ### Python Version
 >3.7.4
