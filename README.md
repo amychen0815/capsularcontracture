@@ -13,10 +13,10 @@ loaded_model = pickle.load(open('capsule_model_LR.sav', 'rb'))
 After loading the model, run the following to generate a probability prediction:
 ```
 test=pd.DataFrame({'Age at surgery':[#],
-                   'BMI at surgery':[#],
-                   'Post-op radiation':[0,1],
                    'NF':[#],
-                   'te2implant_time':[#]})
+                   'te2fte_rate(ml/m)':[#],
+                   'Phasix':[#]
+                   'Post-op radiation':[0,1]})
                    
 loaded_model.predict_proba(test)
 ```
